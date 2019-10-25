@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
+  m_Name: ModConfig
+  m_EditorClassIdentifier: 
+  id: egg
+  title: egg
+  author: Red Penguin
+  description: 'https://docs.google.com/document/d/1fOAEFPN2f-GTqwmEnbqDFPYUpL_N_qcfn93xC-UyVo0/edit?usp=sharing
+
+    joke module. idea by Danny7007, implented by Red Penguin.'
+  version: egg
+  outputFolder: build
+  previewImage: {fileID: 2800000, guid: f1c796d196b6afd4db07678442955127, type: 3}
