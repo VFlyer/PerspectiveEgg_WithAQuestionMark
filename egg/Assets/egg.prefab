@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4285053050263826}
   - component: {fileID: 33645246576134648}
   - component: {fileID: 23993514672723624}
-  - component: {fileID: 95116040869105614}
   - component: {fileID: 114766185919685464}
   - component: {fileID: 114301138832597470}
   m_Layer: 0
@@ -41,7 +40,6 @@ GameObject:
   - component: {fileID: 4270013571494248}
   - component: {fileID: 33808199351959850}
   - component: {fileID: 23818802876770808}
-  - component: {fileID: 95334170542704980}
   - component: {fileID: 114684392375325364}
   m_Layer: 0
   m_Name: Component_PuzzleBackground
@@ -74,7 +72,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4301296438559500}
   - component: {fileID: 33085478892124076}
-  - component: {fileID: 95993644021063950}
   - component: {fileID: 114755636327006182}
   m_Layer: 0
   m_Name: eggggggggggggeeeeeg (1)
@@ -329,57 +326,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1284413920147558}
   m_Mesh: {fileID: 4300000, guid: 1c46642b7f907d844bcdfcca8625afdd, type: 3}
---- !u!95 &95116040869105614
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1264818744916334}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 0287c72544343b84b831acd5251f5b5a, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!95 &95334170542704980
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1284413920147558}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 1c46642b7f907d844bcdfcca8625afdd, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!95 &95993644021063950
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1794357165455290}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 0287c72544343b84b831acd5251f5b5a, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114037463069485328
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -391,7 +337,7 @@ MonoBehaviour:
   m_Script: {fileID: -119419473, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ModuleType: egg
+  ModuleType: bigegg
   ModuleDisplayName: egg
   RequiresTimerVisibility: 1
 --- !u!114 &114073012908411264
@@ -408,6 +354,11 @@ MonoBehaviour:
   bomb: {fileID: 114797204389528740}
   audio: {fileID: 114110744022095718}
   Module: {fileID: 114037463069485328}
+  text: {fileID: 1284413920147558}
+  backgrounds:
+  - {fileID: 2100000, guid: 0fc349c4fd412994caa803e9fa7b6103, type: 2}
+  - {fileID: 2100000, guid: 972bac3c017a2ac40a037ef414b9e6a1, type: 2}
+  egg: {fileID: 1264818744916334}
   buttons:
   - {fileID: 114766185919685464}
 --- !u!114 &114110744022095718
@@ -532,7 +483,7 @@ MonoBehaviour:
   Children:
   - {fileID: 114766185919685464}
   IsPassThrough: 0
-  ChildRowLength: 0
+  ChildRowLength: 1
   Highlight: {fileID: 114820322441708908}
   SelectableColliders: []
   DefaultSelectableIndex: 0
