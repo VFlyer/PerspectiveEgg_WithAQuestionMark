@@ -12,25 +12,12 @@ MonoBehaviour:
   m_Name: ModConfig
   m_EditorClassIdentifier: 
   id: bigegg
-  title: egg [Temporary Upload]
-  author: Danny7007, Red Penguin, eXish
-  description: 'joke module.
-
-
-    HTML: https://ktane.timwi.de/HTML/egg.html
-
-    PDF: https://ktane.timwi.de/PDF/egg.pdf
-
-
-    egg (bigegg) vegg
-
-    Module and Concept by Danny7007.
-
-    Implemented by Red Penguin.
-
-    Temporarily maintained by eXish until Red Penguin doesn''t have bad drivers.
-
-    Twitch Plays supported'
-  version: egg
+  title: egg
+  author: tandyCake, Red Penguin, eXish
+  description: "joke module.\r\n\r\nHTML: https://ktane.timwi.de/HTML/egg.html\r\nPDF:
+    https://ktane.timwi.de/PDF/egg.pdf\r\n\r\negg (bigegg) vegg3\nModule and Concept
+    by tandyCake.\r\nImplemented by Red Penguin.\r\nMaintained by eXish.\r\nTwitch
+    Plays supported"
+  version: egg3
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 2cdb0f89571666749b4f34d4a21002dd, type: 3}
