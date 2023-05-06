@@ -14,7 +14,7 @@ MonoBehaviour:
   id: bigeggs
   title: Perspective Eggs?
   author: VFlyer
-  description: Welcome to April 1st where you make a module before that date has shown.
+  description: 
   version: eggs1
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 4f90f50cd917f7e4688b87393885b9d8, type: 3}
